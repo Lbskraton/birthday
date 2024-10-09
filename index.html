@@ -2,12 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Birthday</title>
   </head>
   <body>
-    <div id="app"></div>
+
+    <header>
+      <h1>Cumpleaños</h1>
+      <br>
+      <h2>Con vite y vanilla</h2>
+      <br>
+  </header>
+  <main>
+      <section class="container">
+
+        <br>
+        <form id="birthday-form">
+          <label for="birthday-fecha">Fecha cumpleaños</label>
+          <input type="date" id="birthday-fecha" name="fecha"/>
+        </form>
+      </section>
+  </main>
+  <footer></footer>
+    
+    
     <script type="module" src="/main.js"></script>
+    <script type="module" src="/calcBD.js"></script>
   </body>
 </html>
